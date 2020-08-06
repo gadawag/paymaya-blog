@@ -1,0 +1,12 @@
+.Search {
+    border: 1px solid red;
+    background-color:  #fff;
+    padding: 2rem;
+
+    &__title {
+        text-align: center;
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-bottom: 4rem;
+    }
+}

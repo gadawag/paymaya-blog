@@ -1,0 +1,72 @@
+.Form {
+    background-color: #fff;
+    padding: 2rem;
+
+    &__title {
+        text-align: center;
+        font-size: 2.4rem;
+        font-weight: 500;
+        margin-bottom: 4rem;
+    }
+
+    &__wrapper {
+        max-width: 80rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    &__group {
+        position: relative;
+    }
+
+    &__group:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+
+    &__input {
+        width: 100%;
+        font-family: inherit;
+        font-size: 2rem;
+        padding: 1rem;
+        resize: none;
+    }
+
+    &__input:valid + &__label,
+    &__input:focus + &__label {
+        top: -3rem;
+        font-size: 1.8rem;
+        color: #333;
+    }
+
+    &__label {
+        position: absolute;
+        top: calc(1rem + 1px);
+        left: calc(1rem + 1px);
+        font-size: 2rem;
+        transition: all .2s;
+    }
+
+    &__message {
+        font-size: 2rem;
+        text-align: center;
+        color: green;
+    }
+
+    &__submit {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        outline: none;
+        border: none;
+        background-color: #20689b;
+        color: #fff;
+        display: block;
+        margin-left: auto;
+        cursor: pointer;
+        transition: all .2s;
+    }
+    
+    &__submit:hover {
+        transform: translateY(-4px);
+        box-shadow: 0px 4px 8px #ccc;
+    }
+}

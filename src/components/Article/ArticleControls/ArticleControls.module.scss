@@ -1,0 +1,12 @@
+.ArticleControls {
+    margin-right: 2rem;
+
+    &__input {
+        font-family: inherit;
+        padding: .5rem 1rem;
+    }
+
+    &__submit {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #20689b;
+    color: #fff;
+
+    &__banner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        font-size: 2.4rem;
+    }
+
+    &__logo {
+        height: 4rem;
+        width: auto;
+        margin-right: 1rem;
+    }
+
+    &__controls {
+        display: flex;
+        align-items: center;
+    }
+}
